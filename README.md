@@ -2,10 +2,13 @@
 
 Este repositorio contiene el Trabajo de Fin de Máster (TFM) titulado "Interpretabilidad de Redes Neuronales", centrado en el análisis y evaluación de modelos de machine learning aplicados a un problema de riesgo crediticio.
 
-📁 **Estructura del repositorio***
+📁 **Estructura del repositorio**
 credit_risk_dataset.csv: Dataset utilizado para entrenar y evaluar los modelos. Contiene información relacionada con el riesgo crediticio de distintos individuos.
 mejor_modelo_mlp.pkl: Modelo MLP (Perceptrón Multicapa) previamente entrenado y guardado. Fue seleccionado como el mejor modelo tras una comparativa basada en la métrica F1 Score.
-notebooks/: Contiene el notebook utilizado durante el desarrollo del TFM, incluyendo la exploración de datos, entrenamiento de modelos y análisis de interpretabilidad.
+codigo.ypynb: Contiene el notebook utilizado durante el desarrollo del TFM, incluyendo la exploración de datos, entrenamiento de modelos y análisis de interpretabilidad.
+arbol_decision.png : Imagen de la estructura del árbol de decisión no balanceado.
+arbol_decision_balanced.png : Imagen de la estructura del árbol de decisión balanceado.
+
 
 🧠 **Objetivo**
 El objetivo principal de este proyecto es explorar técnicas de interpretabilidad en redes neuronales, especialmente en contextos donde la transparencia del modelo es crítica, como en la evaluación del riesgo crediticio.
